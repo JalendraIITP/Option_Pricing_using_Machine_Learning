@@ -46,14 +46,4 @@ This project uses TensorFlow-based Artificial Neural Networks (ANNs) to price fi
     ```bash
     npm start
     ```
-
-## Usage
-
-### Option Pricing
-To compute the option price using the Black-Scholes model with the trained ANN:
-```python
-from ann_solver import BlackScholesANN
-
-# Parameters: stock price, strike price, time to maturity, risk-free rate, volatility
-price = BlackScholesANN().predict(S0=100, K=100, tau=1, r=0.05, sigma=0.2)
-print(f"Option Price: {price}")
+![Frontend View of the Project](https://github.com/JalendraIITP/Option_Pricing_using_Machine_Learning/blob/master/Option_Pricing.png)
