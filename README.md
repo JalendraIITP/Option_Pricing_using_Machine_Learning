@@ -2,13 +2,6 @@
 
 This project uses TensorFlow-based Artificial Neural Networks (ANNs) to price financial options and compute implied volatilities, accelerating traditional numerical methods. The ANN is trained using financial models like Black-Scholes and Heston, offering substantial computational speed improvements without sacrificing accuracy. It also features a Flask backend with a ReactJS frontend for an interactive interface.
 
-## Features
-- **Fast and Accurate**: Reduces option pricing and volatility computation time using ANNs.
-- **Models Supported**: Black-Scholes, Heston, and other financial models.
-- **Numerical Solvers**: Brent’s method, COS method, and Black-Scholes pricing formula.
-- **Web Interface**: Built with Flask (backend) and ReactJS (frontend).
-- **GPU Acceleration**: Utilizes TensorFlow for efficient model training and inference.
-
 ## Requirements
 - Python 3.x
 - TensorFlow
