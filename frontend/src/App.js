@@ -52,7 +52,7 @@ function App() {
         riskFreeRate: parseFloat(riskFreeRate) / 100,
         volatility: parseFloat(volatility) / 100,
       };
-      fetch('https://option-pricing-using-machine-learning-1.onrender.com', {
+      fetch('https://option-pricing-using-machine-learning-1.onrender.com/predict', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -66,7 +66,6 @@ function App() {
           return response.json();
         })
         .then((data) => {
-          console.log('Received response:', data);
           setpredicted_value(data.predicted_value);
           setexpected_value(data.Actual_Value);
           setOutputMessage('');
